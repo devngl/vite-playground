@@ -20,7 +20,8 @@
       const createNewObjectProperty = () => _object.value = 'This is test 2 working properly'
       const deleteObjectProperty = () => delete _object.willBeDeleted
 
-      return { _object, _array, addToArrayByIndex, createNewObjectProperty, deleteObjectProperty }
+      return { _object, _array,
+        addToArrayByIndex, createNewObjectProperty, deleteObjectProperty }
     },
   }
 </script>
